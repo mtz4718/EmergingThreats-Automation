@@ -34,6 +34,7 @@ for ip in iplist:
 	sendlist = ['object-group network EmergingThreats', ip]
 	output = active.send_config_set(sendlist)
 blockrule = ['access-list outside_access_in line 1 extended deny ip object-group EmergingThreats any']
+output = active.send_config_set(blockrule)
 active.disconnect()
 
 
