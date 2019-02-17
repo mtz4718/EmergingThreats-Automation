@@ -7,8 +7,8 @@ iplist = os.getenv('iplist').split(',')
 #change ip and user as needed
 ip = '10.17.17.29'
 user = 'admin'
-password = '8274'
-enablepass = '8274'
+password = '1111'
+enablepass = '1111'
 
 #
 #Define ASA
